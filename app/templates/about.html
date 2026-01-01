@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #1e293b;
+            padding: 15px 40px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #38bdf8;
+        }
+
+        /* About Section */
+        .about-container {
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .about-box {
+            background-color: #ffffff;
+            max-width: 800px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .about-box h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #0f172a;
+            font-size: 32px;
+        }
+
+        .about-box p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #475569;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .about-box .highlight {
+            color: #2563eb;
+            font-weight: 600;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Content -->
+    <div class="about-container">
+        <div class="about-box">
+            <h2>About Us</h2>
+
+            <p>
+                Welcome to our website! We are passionate about building
+                modern, responsive, and user-friendly web applications.
+            </p>
+
+            <p>
+                Our goal is to deliver clean design, efficient code, and
+                scalable solutions using technologies like
+                <span class="highlight">HTML, CSS, JavaScript, Python, and Django</span>.
+            </p>
+
+            <p>
+                Whether you are a beginner learning web development or a
+                business looking for a professional solution, we aim to
+                provide value through innovation and dedication.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Website | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

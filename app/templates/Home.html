@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #1e293b;
+            padding: 15px 40px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #38bdf8;
+        }
+
+        /* Main Section */
+        .container {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+            color: #0f172a;
+        }
+
+        .container p {
+            font-size: 18px;
+            max-width: 600px;
+            line-height: 1.6;
+            color: #475569;
+        }
+
+        /* Button */
+        .btn {
+            margin-top: 25px;
+            padding: 12px 28px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Content -->
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>
+            This is the home page of your project.  
+            You can customize this section to describe your website,
+            services, or application features.
+        </p>
+
+        <button class="btn">Get Started</button>
+    </div>
+
+  
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Website | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
