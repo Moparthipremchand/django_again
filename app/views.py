@@ -6,8 +6,8 @@ from django.http import HttpResponse
 # def Home(request):
 #     return HttpResponse("this is http response home view")
 
-def Home(request):
-    return render(request, "Home.html")
+def index(request):
+    return render(request, "index.html")
 
 def contact(request):
     return render(request, "contact.html")
